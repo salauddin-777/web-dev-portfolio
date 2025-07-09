@@ -1,6 +1,4 @@
-body{
-    font-family: ;
-}
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -16,9 +14,26 @@ body{
     border-radius: 5px;
     padding: 19px 35px;
     font-size: 20px;
-
+     border: none;
+}
+.big-title{
+    font-weight: 800px;
+    font-size: 45px;
+}
+.medium-title{
+    font-size: 600px;
+    font-size: 39px;
+}
+.dark-2{
+    color: #474747;
 }
 
+/* Header Style */
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* Simple style */
 .normal-r{
     color: #fc6f0a;
@@ -45,4 +60,29 @@ nav {
 nav h2 {
     font-weight: 800px;
     font-size: 45px;
+}
+
+/* Hero Style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-discription{
+    font-size: 18px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+.banner-content{
+    max-width: 580px;
 }
