@@ -14,7 +14,13 @@
     border-radius: 5px;
     padding: 19px 35px;
     font-size: 20px;
-     border: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button-primary:hover{
+    background-color: #fc6f0aab;
+    font-size: 23px;
 }
 .big-title{
     font-weight: 800px;
@@ -199,6 +205,7 @@ main{
 .resume-button{
     margin-top: 50px;
     cursor: pointer;
+    margin-bottom: 100px;
 }
 
 /* Footer Style */
