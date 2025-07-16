@@ -224,3 +224,28 @@ footer input[type = "text"], footer input[type= "email"], footer textarea {
     border: none;
     font-size: 16px;
 }
+/* Footer End Here */
+.hide{
+    display: none;
+}
+
+/* Responsive media query */
+
+@media screen and (max-width:576px) {
+    /* Skill Section */
+    .skills-container{
+        flex-direction: column;
+    }
+    .skill-para, .resume .main-title{
+        margin: 0 auto;
+    }
+
+    .resume-container1{
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .footer{
+        flex-direction: column;
+        padding: 0;
+    }
+}
